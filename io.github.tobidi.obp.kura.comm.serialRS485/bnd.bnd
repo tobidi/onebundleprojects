@@ -1,0 +1,20 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation,\
+	${junit},\
+	org.eclipse.kura.core.comm,\
+	org.eclipse.soda.dk.comm,\
+	org.eclipse.kura.core,\
+	org.eclipse.kura.api,\
+	org.eclipse.equinox.io,\
+	slf4j.api,\
+	jdk.dio
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	io.github.tobidi.obp.kura.comm.serialRS485
+Service-Component:  \
+	*
+-noee=true
+Bundle-Copyright: Tobiasz Dworak
+Bundle-License: EPL
